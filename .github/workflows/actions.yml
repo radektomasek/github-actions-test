@@ -12,7 +12,8 @@ jobs:
           ls -a
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
-          echp $GITHUB_WORKSPACE
+          echo $GITHUB_WORKSPACE
+
       - name: Checkout
         uses: actions/checkout@v1
 
